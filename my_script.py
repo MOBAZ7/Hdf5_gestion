@@ -29,7 +29,6 @@ genes_to_find = ['Cnr1','Cnr2','Gpr18','Gpr55','Adgrf1','Gpr110','Gpr119','Trpa1
              'Agk','Dgke','PAM','Plcb1','Enpp2','Pla2g5','Pla2g10','Akr1b3','Fam213b','Ptges','Hprt','Gapdh',
              'Tbp','Rps13']
 fh = open("Genes_expression.tsv", "w+")
-Genes_Expression_Accession = []
 while j <= 135211:
     for i in ind:
         fh.write('{}'.format(f['meta/Sample_geo_accession'][j]))
